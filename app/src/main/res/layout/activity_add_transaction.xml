@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.AddTransactionActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_transaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ly_title"
+        style="@style/CustomTextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Title"
+        app:boxBackgroundColor="#f5f5f5"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:hintTextColor="@android:color/darker_gray">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_title"
+            style="@style/CustomTextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textCapSentences|textMultiLine"
+            android:padding="15dp"
+            android:textAlignment="inherit"
+            android:textCursorDrawable="@android:color/darker_gray"
+            app:boxBackgroundColor="#f5f5f5" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ly_amount"
+        style="@style/drop"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Amount"
+        app:boxBackgroundColor="#f5f5f5"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:hintTextColor="@android:color/darker_gray">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textCursorDrawable="@android:color/darker_gray" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ly_transaction"
+        style="@style/dropDown"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Transaction"
+        app:boxBackgroundColor="#f5f5f5"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:endIconDrawable="@drawable/baseline_keyboard_arrow_down_black_24dp"
+        app:endIconTint="@android:color/black"
+        app:hintTextColor="@android:color/darker_gray">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_transaction_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textCursorDrawable="@android:color/darker_gray" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ly_tags"
+        style="@style/dropDown"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Tags"
+        app:boxBackgroundColor="#f5f5f5"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:endIconDrawable="@drawable/baseline_keyboard_arrow_down_black_24dp"
+        app:endIconTint="@android:color/black"
+        app:hintTextColor="@android:color/darker_gray">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_tags"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textCursorDrawable="@android:color/darker_gray" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ly_time"
+        style="@style/dropDown"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="When"
+        app:boxBackgroundColor="#f5f5f5"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:endIconCheckable="true"
+        app:endIconDrawable="@drawable/baseline_calendar_today_black_24dp"
+        app:endIconTint="@android:color/black"
+        app:hintTextColor="@android:color/darker_gray">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:padding="15dp"
+            android:textCursorDrawable="@android:color/darker_gray" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ly_note"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Note"
+        app:boxBackgroundColor="#f5f5f5"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:hintTextColor="@android:color/darker_gray">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textCapSentences|textMultiLine"
+            android:padding="15dp"
+            android:textCursorDrawable="@android:color/darker_gray" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:text="ADD TRANSACTION"
+        app:backgroundTint="#0D70DA" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
