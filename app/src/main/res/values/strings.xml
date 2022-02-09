@@ -3,4 +3,27 @@
     <string name="add_transcation">Add Transcation</string>
     <string name="add_transacation" />
     <string name="add_transaction">transcact</string>
+    <string name="total_balance">TOTAL BALANCE</string>
+    <string name="_23_000">23,000</string>
+    <string name="total_income">TOTAL INCOME</string>
+    <string name="plus">+</string>
+    <string name="_23_0000">23,000</string>
+    <string name="todo0">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="total_expenses">TOTAL EXPENSES</string>
+    <string name="minus">-</string>
+    <string name="_23_00000">23,000</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="add">add</string>
+    <string name="addTransaction">Add Transaction</string>
+    <string name="fingerprint">fingerprint</string>
+    <string name="app_lock">App Lock</string>
+    <string name="helps_you_protect_your_data_from_being_viewed_by_others_accidentally_fingerprint_must_be_registered_in_device">Helps you protect your data from being viewed by others accidentally.Fingerprint must be registered in device</string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="transaction">Transaction</string>
+    <string name="tags">Tags</string>
+    <string name="when">When</string>
+    <string name="note">Note</string>
+    <string name="transactions">ADD TRANSACTION</string>
 </resources>
