@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.expensetracker.R
 import com.example.expensetracker.data.Transaction
-import com.example.expensetracker.getFormatedNumber
+import com.example.expensetracker.getFormattedNumber
 import kotlinx.android.synthetic.main.list_items.view.*
 
 class TransactionAdapter : RecyclerView.Adapter<TransactionAdapter.TransactionsVh>() {
@@ -37,7 +37,7 @@ class TransactionAdapter : RecyclerView.Adapter<TransactionAdapter.TransactionsV
     override fun onBindViewHolder(holder: TransactionsVh, position: Int) {
         holder.itemView.tv_rv_title.text = data[position].title
         holder.itemView.tv_rv_tags.text = data[position].tags
-        holder.itemView.tv_rv_amount.text = getFormatedNumber(data[position].amount.toString())
+        holder.itemView.tv_rv_amount.text = getFormattedNumber(data[position].amount.toString())
         holder.itemView.tv_rv_date.text = data[position].date
 
         if (data[position].type == "Expenses") {
