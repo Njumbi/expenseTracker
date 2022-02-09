@@ -30,4 +30,11 @@ object AppModule {
         return  db.transactionDao()
     }
 
+    @Singleton
+    @Provides
+    fun provideSharedPreferences(@ApplicationContext context: Context) =
+        context.getSharedPreferences(
+            "mypref", Context.MODE_PRIVATE
+        )
+
 }

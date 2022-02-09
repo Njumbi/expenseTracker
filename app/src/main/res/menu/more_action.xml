@@ -2,8 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:title="add"
-        android:id="@+id/more"
-        android:icon="@drawable/baseline_more_vert_black_24dp"/>
+        android:title="@string/addTransaction"
+        android:id="@+id/more" />
+    <item
+        android:title="Settings"
+        android:id="@+id/settings" />
 
 </menu>
