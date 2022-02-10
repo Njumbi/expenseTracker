@@ -25,6 +25,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import java.util.concurrent.Executor
+import javax.inject.Inject
 
 
 @AndroidEntryPoint
@@ -37,6 +38,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var executor: Executor
     private lateinit var biometricPrompt: BiometricPrompt
     private lateinit var promptInfo: BiometricPrompt.PromptInfo
+    @Inject
+    lateinit var preferences: SharedPreferences
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -46,6 +49,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
         supportActionBar?.setDisplayShowHomeEnabled(false)
         supportActionBar?.title = "Dashboard"
+
 
         iniFingerPrint() {
             if (it) {
@@ -72,9 +76,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun iniFingerPrint(cb: (Boolean) -> Unit) {
-        val sharedPref: SharedPreferences =
-            this.getSharedPreferences("mypref", Context.MODE_PRIVATE)
-        val isChecked = sharedPref.getBoolean("checked", true)
+        val isChecked = preferences.getBoolean("checked", true)
 
         if (isChecked) {
             executor = ContextCompat.getMainExecutor(this)
@@ -121,6 +123,7 @@ class MainActivity : AppCompatActivity() {
             biometricPrompt.authenticate(promptInfo)
         } else {
             cb.invoke(true)
+
         }
     }
 

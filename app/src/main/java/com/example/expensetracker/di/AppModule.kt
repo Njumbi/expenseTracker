@@ -1,6 +1,7 @@
 package com.example.expensetracker.di
 
 import android.content.Context
+import android.content.SharedPreferences
 import androidx.room.Room
 import com.example.expensetracker.data.AppDatabase
 import com.example.expensetracker.data.TransactionDao
@@ -26,13 +27,14 @@ object AppModule {
     }
 
     @Provides
+    @Singleton
     fun transactionDao(db: AppDatabase) : TransactionDao{
         return  db.transactionDao()
     }
 
     @Singleton
     @Provides
-    fun provideSharedPreferences(@ApplicationContext context: Context) =
+    fun provideSharedPreferences(@ApplicationContext context: Context) : SharedPreferences =
         context.getSharedPreferences(
             "mypref", Context.MODE_PRIVATE
         )
