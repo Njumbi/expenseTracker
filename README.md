@@ -32,11 +32,12 @@ After downloading the code, open the expenseTracker project in Android Studio an
 
 ## Screenshots
 
-![Biometric Login](https://github.com/Njumbi/expenseTracker/blob/master/app/src/main/res/drawable/login.png)
+<img title="Biometric Login" src="https://github.com/Njumbi/expenseTracker/blob/master/app/src/main/res/drawable/login.png" width="100" height="100">
 
-![Main Page](https://github.com/Njumbi/expenseTracker/blob/master/app/src/main/res/drawable/main.png)
+<img title="Main Page" src="https://github.com/Njumbi/expenseTracker/blob/master/app/src/main/res/drawable/main.png" width="100" height="100">
 
-![Add Transaction](https://github.com/Njumbi/expenseTracker/blob/master/app/src/main/res/drawable/add_transaction.png)
+<img title="Add Transaction" src="https://github.com/Njumbi/expenseTracker/blob/master/app/src/main/res/drawable/add_transaction.png" width="100" height="100">
+
 ## Authors
 
 - [Njumbi](https://github.com/Njumbi)
