@@ -4,24 +4,29 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.expensetracker.R
 import com.example.expensetracker.data.Transaction
 import com.example.expensetracker.getFormattedNumber
 import kotlinx.android.synthetic.main.list_items.view.*
 
-class TransactionAdapter : RecyclerView.Adapter<TransactionAdapter.TransactionsVh>() {
-
-    private var data = arrayListOf<Transaction>()
-
-    fun setData(list: List<Transaction>) {
-        data.clear()
-        data.addAll(list)
-        notifyDataSetChanged()
-    }
+class TransactionAdapter : ListAdapter<Transaction, TransactionAdapter.TransactionsVh>(TransactionsComparator()) {
 
 
     class TransactionsVh(view: View) : RecyclerView.ViewHolder(view) {
+
+    }
+
+    class TransactionsComparator : DiffUtil.ItemCallback<Transaction>() {
+        override fun areItemsTheSame(oldItem: Transaction, newItem: Transaction): Boolean {
+            return oldItem.id == newItem.id
+        }
+
+        override fun areContentsTheSame(oldItem: Transaction, newItem: Transaction): Boolean {
+            return oldItem == newItem
+        }
 
     }
 
@@ -35,12 +40,13 @@ class TransactionAdapter : RecyclerView.Adapter<TransactionAdapter.TransactionsV
     }
 
     override fun onBindViewHolder(holder: TransactionsVh, position: Int) {
-        holder.itemView.tv_rv_title.text = data[position].title
-        holder.itemView.tv_rv_tags.text = data[position].tags
-        holder.itemView.tv_rv_amount.text = getFormattedNumber(data[position].amount.toString())
-        holder.itemView.tv_rv_date.text = data[position].date
+        val data = getItem(position);
+        holder.itemView.tv_rv_title.text = data.title
+        holder.itemView.tv_rv_tags.text = data.tags
+        holder.itemView.tv_rv_amount.text = getFormattedNumber(data.amount.toString())
+        holder.itemView.tv_rv_date.text = data.date
 
-        if (data[position].type == "Expenses") {
+        if (data.type == "Expenses") {
             holder.itemView.tv8.text = "-"
             holder.itemView.tv_rv_amount.setTextColor(
                 holder.itemView.context.resources.getColor(
@@ -56,11 +62,8 @@ class TransactionAdapter : RecyclerView.Adapter<TransactionAdapter.TransactionsV
             )
         }
 
-        Log.d("title", data[position].toString())
+        Log.d("title", data.toString())
 
     }
 
-    override fun getItemCount(): Int {
-        return data.size
-    }
 }

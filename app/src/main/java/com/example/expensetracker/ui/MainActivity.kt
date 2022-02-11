@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -64,8 +65,9 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
 
-                vm.transactions.observe(this) {
-                    it.let { it1 -> transactionAdapter.setData(it1) }
+                vm.transactions.observe(this) {it1->
+                    it1.let { transactionAdapter.submitList(it) }
+                    Log.d("adapter",it.toString())
                 }
 
                 getTotals()
