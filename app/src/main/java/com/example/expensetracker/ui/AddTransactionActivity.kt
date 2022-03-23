@@ -1,9 +1,7 @@
 package com.example.expensetracker.ui
 
-import android.app.ProgressDialog
 import android.os.Bundle
 import android.text.TextUtils
-import android.text.method.TextKeyListener.clear
 import android.util.Log
 import android.view.MenuItem
 import android.widget.ArrayAdapter
@@ -87,8 +85,8 @@ class AddTransactionActivity : AppCompatActivity() {
                 ly_time.error = "Choose date"
 
             }
-            if(TextUtils.isEmpty(et_note.text)){
-                ly_note.error ="Enter note"
+            if (TextUtils.isEmpty(et_note.text)) {
+                ly_note.error = "Enter note"
                 return@setOnClickListener
             }
 
@@ -100,22 +98,21 @@ class AddTransactionActivity : AppCompatActivity() {
             val noteTransactions = et_note.text.toString()
 
 
-
             val request = Transaction(
-               title = transactionTitle,
-               amount = transactionAmount.toDouble(),
-               type =  transactionExpenses,
-               tags = tagsTransactions,
-               date = timeTransactions,
+                title = transactionTitle,
+                amount = transactionAmount.toDouble(),
+                type = transactionExpenses,
+                tags = tagsTransactions,
+                date = timeTransactions,
                 description = noteTransactions
             )
 
             vm.addTransaction(request)
 
-            Log.d("Message","Returned set on click listener")
-            Toast.makeText(this,"Transaction Added Successfully",Toast.LENGTH_LONG).show()
+            Log.d("Message", "Returned set on click listener")
+            Toast.makeText(this, "Transaction Added Successfully", Toast.LENGTH_LONG).show()
 
-           finish()
+            finish()
 
         }
 

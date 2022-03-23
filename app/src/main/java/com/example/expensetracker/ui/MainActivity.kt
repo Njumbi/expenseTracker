@@ -24,6 +24,7 @@ import com.example.expensetracker.viewModel.TranscactionVm
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import java.util.concurrent.Executor
 import javax.inject.Inject
@@ -52,7 +53,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = "Dashboard"
 
 
-        iniFingerPrint() {
+        iniFingerPrint() { it ->
             if (it) {
                 transactionAdapter = TransactionAdapter()
 
@@ -64,10 +65,17 @@ class MainActivity : AppCompatActivity() {
                     val intent = Intent(this, AddTransactionActivity::class.java)
                     startActivity(intent)
                 }
+                // call to get all transactions
+                vm.fetchAllTransactions()
 
-                vm.transactions.observe(this) {it1->
-                    it1.let { transactionAdapter.submitList(it) }
-                    Log.d("adapter",it.toString())
+                // listen for emitted transactions
+                lifecycleScope.launchWhenStarted {
+                    repeatOnLifecycle(Lifecycle.State.STARTED){
+                        vm.allTransactions.collect {
+                            vm.fetchAllTransactions()
+                            transactionAdapter.submitList(it)
+                        }
+                    }
                 }
 
                 getTotals()
