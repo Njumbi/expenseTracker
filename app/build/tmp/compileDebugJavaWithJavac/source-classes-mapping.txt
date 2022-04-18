@@ -66,6 +66,8 @@ com/example/expensetracker/viewModel/TranscactionVm_HiltModules.java
  com.example.expensetracker.viewModel.TranscactionVm_HiltModules
  com.example.expensetracker.viewModel.TranscactionVm_HiltModules$BindsModule
  com.example.expensetracker.viewModel.TranscactionVm_HiltModules$KeyModule
+com/example/expensetracker/App_ComponentTreeDeps.java
+ com.example.expensetracker.App_ComponentTreeDeps
 com/example/expensetracker/App_HiltComponents.java
  com.example.expensetracker.App_HiltComponents
  com.example.expensetracker.App_HiltComponents$ActivityC
@@ -95,8 +97,6 @@ com/example/expensetracker/ui/Hilt_MainActivity.java
  com.example.expensetracker.ui.Hilt_MainActivity$1
 com/example/expensetracker/ui/MainActivity_GeneratedInjector.java
  com.example.expensetracker.ui.MainActivity_GeneratedInjector
-com/example/expensetracker/App_ComponentTreeDeps.java
- com.example.expensetracker.App_ComponentTreeDeps
 com/example/expensetracker/DaggerApp_HiltComponents_SingletonC.java
  com.example.expensetracker.DaggerApp_HiltComponents_SingletonC
  com.example.expensetracker.DaggerApp_HiltComponents_SingletonC$1
