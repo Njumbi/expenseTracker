@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var executor: Executor
     private lateinit var biometricPrompt: BiometricPrompt
     private lateinit var promptInfo: BiometricPrompt.PromptInfo
+
     @Inject
     lateinit var preferences: SharedPreferences
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -50,8 +51,8 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = "Dashboard"
 
 
-//        iniFingerPrint() { it ->
-//            if (it) {
+        iniFingerPrint() { it ->
+            if (it) {
                 transactionAdapter = TransactionAdapter()
 
                 rv_current_transacation.layoutManager =
@@ -67,7 +68,7 @@ class MainActivity : AppCompatActivity() {
 
                 // listen for emitted transactions
                 lifecycleScope.launchWhenStarted {
-                    repeatOnLifecycle(Lifecycle.State.STARTED){
+                    repeatOnLifecycle(Lifecycle.State.STARTED) {
                         vm.allTransactions.collect {
                             transactionAdapter.submitList(it)
                         }
@@ -77,8 +78,8 @@ class MainActivity : AppCompatActivity() {
                 getTotals()
                 getTotalExpenses()
                 getTotalBalance()
-//            }
-//        }
+            }
+        }
     }
 
     private fun iniFingerPrint(cb: (Boolean) -> Unit) {
