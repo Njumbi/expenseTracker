@@ -1,10 +1,8 @@
 package com.example.expensetracker.ui
 
-import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -24,7 +22,6 @@ import com.example.expensetracker.viewModel.TranscactionVm
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import java.util.concurrent.Executor
 import javax.inject.Inject
@@ -53,8 +50,8 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = "Dashboard"
 
 
-        iniFingerPrint() { it ->
-            if (it) {
+//        iniFingerPrint() { it ->
+//            if (it) {
                 transactionAdapter = TransactionAdapter()
 
                 rv_current_transacation.layoutManager =
@@ -72,7 +69,6 @@ class MainActivity : AppCompatActivity() {
                 lifecycleScope.launchWhenStarted {
                     repeatOnLifecycle(Lifecycle.State.STARTED){
                         vm.allTransactions.collect {
-                            vm.fetchAllTransactions()
                             transactionAdapter.submitList(it)
                         }
                     }
@@ -81,8 +77,8 @@ class MainActivity : AppCompatActivity() {
                 getTotals()
                 getTotalExpenses()
                 getTotalBalance()
-            }
-        }
+//            }
+//        }
     }
 
     private fun iniFingerPrint(cb: (Boolean) -> Unit) {
@@ -187,6 +183,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.more_action, menu)
         return true
+    }
+
+    override fun onResume() {
+        super.onResume()
+        vm.fetchAllTransactions()
     }
 
 
