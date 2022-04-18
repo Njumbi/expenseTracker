@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.expensetracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+11-->[androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:24:5-72
+11-->[androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:24:22-69
+12    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+12-->[androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:27:5-74
+12-->[androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:27:22-71
+13
+14    <application
+14-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:5:5-33:19
+15        android:name="com.example.expensetracker.App"
+15-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:6:9-28
+16        android:allowBackup="true"
+16-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:7:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/f93c9a1e6bbd9392128a26742a667bdf/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:hardwareAccelerated="false"
+19-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:9:9-44
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:10:9-43
+21        android:label="@string/app_name"
+21-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:11:9-41
+22        android:largeHeap="true"
+22-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:8:9-33
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:13:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.ExpenseTracker" >
+26-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:14:9-52
+27        <activity
+27-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:15:9-17:40
+28            android:name="com.example.expensetracker.ui.AuthenticationActivity"
+28-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:16:13-54
+29            android:exported="false" />
+29-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:17:13-37
+30        <activity
+30-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:18:9-20:40
+31            android:name="com.example.expensetracker.ui.SettingsActivity"
+31-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:19:13-48
+32            android:exported="false" />
+32-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:20:13-37
+33        <activity
+33-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:21:9-23:39
+34            android:name="com.example.expensetracker.ui.AddTransactionActivity"
+34-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:22:13-54
+35            android:exported="true" />
+35-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:23:13-36
+36        <activity
+36-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:24:9-32:20
+37            android:name="com.example.expensetracker.ui.MainActivity"
+37-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:25:13-44
+38            android:exported="true" >
+38-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:26:13-36
+39            <intent-filter>
+39-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:27:13-31:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:28:17-69
+40-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:28:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:30:17-77
+42-->/Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:30:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <service
+46-->[androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:25:9-28:40
+47            android:name="androidx.room.MultiInstanceInvalidationService"
+47-->[androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:26:13-74
+48            android:directBootAware="true"
+48-->[androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:27:13-43
+49            android:exported="false" />
+49-->[androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:28:13-37
+50    </application>
+51
+52</manifest>

@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_baseline_more_vert_black_24dp.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/baseline_more_vert_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/menu_more_action.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/menu/more_action.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_baseline_arrow_upward_red_200_24dp.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/baseline_arrow_upward_red_200_24dp.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_baseline_add_white_24dp.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/baseline_add_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_bg_drawable.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/bg_drawable.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_pink_circle.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/pink_circle.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_add_transaction.png.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/add_transaction.png"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_baseline_calendar_today_black_24dp.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/baseline_calendar_today_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_baseline_live_tv_black_24dp.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/baseline_live_tv_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_baseline_fingerprint_black_36dp.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/baseline_fingerprint_black_36dp.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/layout_activity_settings.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_main.png.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/main.png"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_green_circle.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/green_circle.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/layout_transactions_list_items.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/layout/transactions_list_items.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_baseline_add_circle_blue_600_24dp.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/baseline_add_circle_blue_600_24dp.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/layout_activity_add_transaction.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/layout/activity_add_transaction.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/layout_activity_authentication.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/layout/activity_authentication.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_baseline_keyboard_arrow_down_black_24dp.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/baseline_keyboard_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_bg_rounded_rectangle.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/bg_rounded_rectangle.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_baseline_arrow_downward_green_400_24dp.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/baseline_arrow_downward_green_400_24dp.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/layout_list_items.xml.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/layout/list_items.xml"
+    },
+    {
+        "merged": "/Users/florencewambui/expenseTracker/app/build/intermediates/merged_res/debug/drawable_login.png.flat",
+        "source": "/Users/florencewambui/expenseTracker/app/src/main/res/drawable/login.png"
+    }
+]

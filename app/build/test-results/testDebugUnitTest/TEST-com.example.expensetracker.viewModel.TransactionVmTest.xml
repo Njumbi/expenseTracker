@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.expensetracker.viewModel.TransactionVmTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-23T20:42:35" hostname="ngethe.local" time="2.61">
+  <properties/>
+  <testcase name="total expenses returns total expenses amount" classname="com.example.expensetracker.viewModel.TransactionVmTest" time="2.524"/>
+  <testcase name="totalIncome returns sum of amount in all income transactions" classname="com.example.expensetracker.viewModel.TransactionVmTest" time="0.013"/>
+  <testcase name="total income returns total amount" classname="com.example.expensetracker.viewModel.TransactionVmTest" time="0.016"/>
+  <testcase name="fetch all transactions" classname="com.example.expensetracker.viewModel.TransactionVmTest" time="0.018"/>
+  <testcase name="total expenses returns sum amount  of all expenses" classname="com.example.expensetracker.viewModel.TransactionVmTest" time="0.006"/>
+  <testcase name="total value remaining is equals to income minus expenses" classname="com.example.expensetracker.viewModel.TransactionVmTest" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

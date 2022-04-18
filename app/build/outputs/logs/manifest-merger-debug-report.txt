@@ -1,0 +1,278 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/florencewambui/.gradle/caches/transforms-3/39f1b2de8090c9542f03dd13fc9a6c8a/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/florencewambui/.gradle/caches/transforms-3/ed2c14825951c0549a28ea490e08f090/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/81a0b99d287d22800c2e54946cb1e931/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/399b277f39de58b9a6daf11ce116f86b/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-paging:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/085617f542f3eddbb6dfd7517d3a1a2e/transformed/jetified-room-paging-2.4.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/1ce6fcb437290e92667131f89c5af775/transformed/jetified-room-ktx-2.4.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/882a1ffc3e4c4be9f8a3cefa18bf517b/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.biometric:biometric-ktx:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/a73d7f3322653c92aac6520b9dfc9b48/transformed/jetified-biometric-ktx-1.2.0-alpha04/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/7d46f06a8b831114ba9c35f6b3768d25/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/florencewambui/.gradle/caches/transforms-3/93e8b057d3e6118d43f3540737934766/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/florencewambui/.gradle/caches/transforms-3/17eeb35e314efdf153fc54e494c20365/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/florencewambui/.gradle/caches/transforms-3/30f01b76c7d1756b8186728de71f50f6/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] /Users/florencewambui/.gradle/caches/transforms-3/509e65d08e42e563fc10935ca2d4a695/transformed/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/florencewambui/.gradle/caches/transforms-3/2f7caf46398e3e9af07499962cfc954a/transformed/jetified-hilt-android-2.38.1/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/e78e8632faf32ade668cc3895d8bed77/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/florencewambui/.gradle/caches/transforms-3/40f01f53f03768eb8d3ad01279360a7f/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/florencewambui/.gradle/caches/transforms-3/38a83bfa1af3b0b5324e5df10fa89c72/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/florencewambui/.gradle/caches/transforms-3/b4359f8001181319eb887c2432450445/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/538c5477ca9004497a519973a707d7c3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/79851f4a8b8a6ef3330c41430405a592/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/a1e635d6e97fe26d081d8638dd35ace9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/b5ca3a945fb762e42d9cf0a274bdd76b/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/838be5cd618efa781feadbcc138081c1/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/dcaaa9992eb6c1c3a7c2d6bb86545d18/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/florencewambui/.gradle/caches/transforms-3/34199081823ef87f80650d0eb5c7bdb4/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/551927acf11f0b61c593ff6accfa8cfd/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/83a81f2d75a56218fd17e01ee39241ed/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/florencewambui/.gradle/caches/transforms-3/828c9a02e16daacdd86129c94847a7d9/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/cabc6686008929ec0ea3e6b36e98f977/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/98c0a542f3b333d7a325ef850e56342c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/59f7bf80730113dccb50b406c552748b/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/546a82e237ee9a998d5bda0d4cafc5f2/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/91971ced15f4aac49b46910706c50853/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/f93c9a1e6bbd9392128a26742a667bdf/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/ac0165b728c30a3d4b6a50ac656053e1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/e7e46a1882bb2bceaa093c2eb206df9a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/e6802e3535df12954513b4a743684504/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/75eefacb2be2202d53ec19408c89ab52/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/florencewambui/.gradle/caches/transforms-3/99a9fa37479d11a0089a8771aca66843/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/648a8dd3890d9d064c0646d1d156b74c/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/b0d20979e5c77248707b2f1815229830/transformed/sqlite-framework-2.2.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/9056198d6fe5a3dc404274f1b8a4ec47/transformed/sqlite-2.2.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/368abc6e6692d0756e2997eb575fdbd0/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/b6ce89d3f708427da8659c8d455c50d7/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/florencewambui/.gradle/caches/transforms-3/0bf32c9dcc44515a3317df9dd1038777/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/76f1ab591ff7bc530d5964376232ab36/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/731778e67cfa0297c413344a6b0d69c8/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/fb06808eaf2ca3b22c9d0dd79767bdc9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/a41988903941f215e85f0a1dc1e74e99/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/07607d88ef5e3794defef7e4a93a5a2e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/florencewambui/.gradle/caches/transforms-3/9995edd9ace83148199a4bf4b8551f84/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:5:5-33:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/florencewambui/.gradle/caches/transforms-3/93e8b057d3e6118d43f3540737934766/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/florencewambui/.gradle/caches/transforms-3/93e8b057d3e6118d43f3540737934766/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/florencewambui/.gradle/caches/transforms-3/17eeb35e314efdf153fc54e494c20365/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/florencewambui/.gradle/caches/transforms-3/17eeb35e314efdf153fc54e494c20365/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.core:core:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/f93c9a1e6bbd9392128a26742a667bdf/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/f93c9a1e6bbd9392128a26742a667bdf/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/florencewambui/.gradle/caches/transforms-3/99a9fa37479d11a0089a8771aca66843/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/florencewambui/.gradle/caches/transforms-3/99a9fa37479d11a0089a8771aca66843/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/f93c9a1e6bbd9392128a26742a667bdf/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:11:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:9:9-44
+	android:roundIcon
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:12:9-54
+	android:largeHeap
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:8:9-33
+	android:icon
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:14:9-52
+	android:name
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:6:9-28
+activity#com.example.expensetracker.ui.AuthenticationActivity
+ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:16:13-54
+activity#com.example.expensetracker.ui.SettingsActivity
+ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:19:13-48
+activity#com.example.expensetracker.ui.AddTransactionActivity
+ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:21:9-23:39
+	android:exported
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:22:13-54
+activity#com.example.expensetracker.ui.MainActivity
+ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:24:9-32:20
+	android:exported
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:25:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml:30:27-74
+uses-sdk
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/florencewambui/.gradle/caches/transforms-3/39f1b2de8090c9542f03dd13fc9a6c8a/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/florencewambui/.gradle/caches/transforms-3/39f1b2de8090c9542f03dd13fc9a6c8a/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/florencewambui/.gradle/caches/transforms-3/ed2c14825951c0549a28ea490e08f090/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/florencewambui/.gradle/caches/transforms-3/ed2c14825951c0549a28ea490e08f090/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/81a0b99d287d22800c2e54946cb1e931/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/81a0b99d287d22800c2e54946cb1e931/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/399b277f39de58b9a6daf11ce116f86b/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/399b277f39de58b9a6daf11ce116f86b/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-paging:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/085617f542f3eddbb6dfd7517d3a1a2e/transformed/jetified-room-paging-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-paging:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/085617f542f3eddbb6dfd7517d3a1a2e/transformed/jetified-room-paging-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/1ce6fcb437290e92667131f89c5af775/transformed/jetified-room-ktx-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/1ce6fcb437290e92667131f89c5af775/transformed/jetified-room-ktx-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/882a1ffc3e4c4be9f8a3cefa18bf517b/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/882a1ffc3e4c4be9f8a3cefa18bf517b/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric-ktx:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/a73d7f3322653c92aac6520b9dfc9b48/transformed/jetified-biometric-ktx-1.2.0-alpha04/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.biometric:biometric-ktx:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/a73d7f3322653c92aac6520b9dfc9b48/transformed/jetified-biometric-ktx-1.2.0-alpha04/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/7d46f06a8b831114ba9c35f6b3768d25/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/7d46f06a8b831114ba9c35f6b3768d25/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/florencewambui/.gradle/caches/transforms-3/93e8b057d3e6118d43f3540737934766/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/florencewambui/.gradle/caches/transforms-3/93e8b057d3e6118d43f3540737934766/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/florencewambui/.gradle/caches/transforms-3/17eeb35e314efdf153fc54e494c20365/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/florencewambui/.gradle/caches/transforms-3/17eeb35e314efdf153fc54e494c20365/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/florencewambui/.gradle/caches/transforms-3/30f01b76c7d1756b8186728de71f50f6/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/florencewambui/.gradle/caches/transforms-3/30f01b76c7d1756b8186728de71f50f6/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] /Users/florencewambui/.gradle/caches/transforms-3/509e65d08e42e563fc10935ca2d4a695/transformed/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] /Users/florencewambui/.gradle/caches/transforms-3/509e65d08e42e563fc10935ca2d4a695/transformed/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/florencewambui/.gradle/caches/transforms-3/2f7caf46398e3e9af07499962cfc954a/transformed/jetified-hilt-android-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/florencewambui/.gradle/caches/transforms-3/2f7caf46398e3e9af07499962cfc954a/transformed/jetified-hilt-android-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/e78e8632faf32ade668cc3895d8bed77/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/e78e8632faf32ade668cc3895d8bed77/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/florencewambui/.gradle/caches/transforms-3/40f01f53f03768eb8d3ad01279360a7f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/florencewambui/.gradle/caches/transforms-3/40f01f53f03768eb8d3ad01279360a7f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/florencewambui/.gradle/caches/transforms-3/38a83bfa1af3b0b5324e5df10fa89c72/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/florencewambui/.gradle/caches/transforms-3/38a83bfa1af3b0b5324e5df10fa89c72/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/florencewambui/.gradle/caches/transforms-3/b4359f8001181319eb887c2432450445/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/florencewambui/.gradle/caches/transforms-3/b4359f8001181319eb887c2432450445/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/538c5477ca9004497a519973a707d7c3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/538c5477ca9004497a519973a707d7c3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/79851f4a8b8a6ef3330c41430405a592/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/79851f4a8b8a6ef3330c41430405a592/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/a1e635d6e97fe26d081d8638dd35ace9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/a1e635d6e97fe26d081d8638dd35ace9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/b5ca3a945fb762e42d9cf0a274bdd76b/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/b5ca3a945fb762e42d9cf0a274bdd76b/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/838be5cd618efa781feadbcc138081c1/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/838be5cd618efa781feadbcc138081c1/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/dcaaa9992eb6c1c3a7c2d6bb86545d18/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/dcaaa9992eb6c1c3a7c2d6bb86545d18/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/florencewambui/.gradle/caches/transforms-3/34199081823ef87f80650d0eb5c7bdb4/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/florencewambui/.gradle/caches/transforms-3/34199081823ef87f80650d0eb5c7bdb4/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/551927acf11f0b61c593ff6accfa8cfd/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/551927acf11f0b61c593ff6accfa8cfd/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/83a81f2d75a56218fd17e01ee39241ed/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/83a81f2d75a56218fd17e01ee39241ed/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/florencewambui/.gradle/caches/transforms-3/828c9a02e16daacdd86129c94847a7d9/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/florencewambui/.gradle/caches/transforms-3/828c9a02e16daacdd86129c94847a7d9/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/cabc6686008929ec0ea3e6b36e98f977/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/cabc6686008929ec0ea3e6b36e98f977/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/98c0a542f3b333d7a325ef850e56342c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/98c0a542f3b333d7a325ef850e56342c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/59f7bf80730113dccb50b406c552748b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/59f7bf80730113dccb50b406c552748b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/546a82e237ee9a998d5bda0d4cafc5f2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/546a82e237ee9a998d5bda0d4cafc5f2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/91971ced15f4aac49b46910706c50853/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/91971ced15f4aac49b46910706c50853/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/f93c9a1e6bbd9392128a26742a667bdf/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/florencewambui/.gradle/caches/transforms-3/f93c9a1e6bbd9392128a26742a667bdf/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/ac0165b728c30a3d4b6a50ac656053e1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/ac0165b728c30a3d4b6a50ac656053e1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/e7e46a1882bb2bceaa093c2eb206df9a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/e7e46a1882bb2bceaa093c2eb206df9a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/e6802e3535df12954513b4a743684504/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/e6802e3535df12954513b4a743684504/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/75eefacb2be2202d53ec19408c89ab52/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/75eefacb2be2202d53ec19408c89ab52/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/florencewambui/.gradle/caches/transforms-3/99a9fa37479d11a0089a8771aca66843/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/florencewambui/.gradle/caches/transforms-3/99a9fa37479d11a0089a8771aca66843/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/648a8dd3890d9d064c0646d1d156b74c/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/648a8dd3890d9d064c0646d1d156b74c/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/b0d20979e5c77248707b2f1815229830/transformed/sqlite-framework-2.2.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/b0d20979e5c77248707b2f1815229830/transformed/sqlite-framework-2.2.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/9056198d6fe5a3dc404274f1b8a4ec47/transformed/sqlite-2.2.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/9056198d6fe5a3dc404274f1b8a4ec47/transformed/sqlite-2.2.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/368abc6e6692d0756e2997eb575fdbd0/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/368abc6e6692d0756e2997eb575fdbd0/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/b6ce89d3f708427da8659c8d455c50d7/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /Users/florencewambui/.gradle/caches/transforms-3/b6ce89d3f708427da8659c8d455c50d7/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/florencewambui/.gradle/caches/transforms-3/0bf32c9dcc44515a3317df9dd1038777/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/florencewambui/.gradle/caches/transforms-3/0bf32c9dcc44515a3317df9dd1038777/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/76f1ab591ff7bc530d5964376232ab36/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/76f1ab591ff7bc530d5964376232ab36/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/731778e67cfa0297c413344a6b0d69c8/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/731778e67cfa0297c413344a6b0d69c8/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/fb06808eaf2ca3b22c9d0dd79767bdc9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/fb06808eaf2ca3b22c9d0dd79767bdc9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/a41988903941f215e85f0a1dc1e74e99/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/florencewambui/.gradle/caches/transforms-3/a41988903941f215e85f0a1dc1e74e99/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/07607d88ef5e3794defef7e4a93a5a2e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/florencewambui/.gradle/caches/transforms-3/07607d88ef5e3794defef7e4a93a5a2e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/florencewambui/.gradle/caches/transforms-3/9995edd9ace83148199a4bf4b8551f84/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/florencewambui/.gradle/caches/transforms-3/9995edd9ace83148199a4bf4b8551f84/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:18:3-42
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/florencewambui/expenseTracker/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:24:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.2.0-alpha04] /Users/florencewambui/.gradle/caches/transforms-3/df8d1403ba0f4bade87ebe5dde309968/transformed/biometric-1.2.0-alpha04/AndroidManifest.xml:27:22-71
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.0-beta01] /Users/florencewambui/.gradle/caches/transforms-3/3d63536c2dc6dfce6281b2a3e4b68468/transformed/room-runtime-2.4.0-beta01/AndroidManifest.xml:26:13-74
